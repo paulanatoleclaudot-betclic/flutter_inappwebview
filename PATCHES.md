@@ -12,3 +12,4 @@ On each upstream release: rebase, drop the patches that landed, bump the SHA in 
 | Per-hosting-view device pixel ratio, stale WGC capture frames after resize, texture use-after-free on dispose, async-callback crash guards | #2 | — | released upstream |
 | AVX2 swizzle isolated in its own translation unit (pre-Haswell illegal instruction) | #3 | — | released upstream |
 | `applicationNameForUserAgent` applied on macOS without a default name and on Windows | #4 | — | released upstream |
+| Kept-alive view reports its content-process termination to `InAppWebViewKeepAlive` for its whole native lifetime, attached to a widget or not (SQCASENR-9221) | #8 | — | released upstream |

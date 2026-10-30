@@ -464,7 +464,8 @@ class AndroidInAppWebViewWidget extends PlatformInAppWebViewWidget {
         settings.useShouldInterceptRequest == null) {
       settings.useShouldInterceptRequest = true;
     }
-    if (params.onRenderProcessGone != null &&
+    if ((params.onRenderProcessGone != null ||
+            params.keepAlive?.onRenderProcessGone != null) &&
         settings.useOnRenderProcessGone == null) {
       settings.useOnRenderProcessGone = true;
     }
