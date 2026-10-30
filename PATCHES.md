@@ -12,3 +12,4 @@ On each upstream release: rebase, drop the patches that landed, bump the SHA in 
 | Per-hosting-view device pixel ratio, stale WGC capture frames after resize, texture use-after-free on dispose, async-callback crash guards | #2 | — | released upstream |
 | AVX2 swizzle isolated in its own translation unit (pre-Haswell illegal instruction) | #3 | — | released upstream |
 | `applicationNameForUserAgent` applied on macOS without a default name and on Windows | #4 | — | released upstream |
+| Windows graphics context never released on process exit (D3D device teardown hangs `ExitProcess` on Intel drivers) | #9 | — | released upstream |
